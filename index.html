@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Task List</title>
+</head>
+<body>
+
+    <header>
+        <h1>Task List 2023</h1>
+        <form id="new-task-form"></form>
+        <input type="text" id="new-task-input" placeholder="What do you have to complete?">
+        <input type="submit" id="new-task-submit" value="Add task">
+    </header>
+    <section class="task">
+        <h2>Tasks</h2>
+        <div id="tasks">
+            <div class="task">
+        <div class="content">
+            <input type="text" class="text" value="My first task" readonly>
+        </div>
+        <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </div>
+            </div>
+            </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
